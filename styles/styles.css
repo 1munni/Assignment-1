@@ -164,16 +164,18 @@ button{
         }
         .News-text{
            margin: 0px 120px;
-           padding-top: 0px;}
-           
+           padding-top: 0px;
+           font-family: "Fira Sans", serif;}
+           /* recent section end */
+    
           .news-card1{
             background-color: #FFF7DF;
             height: 350px;
-            width: 1250px;
+            width: 1290px;
             display: flex;
             justify-content: space-evenly;
-            margin: 130px;
-   padding: 60px;
+            margin: 50px 130px;
+   padding: 100px;
    border-radius: 20px;
    align-items: center;
    column-gap: 100px;
@@ -181,16 +183,54 @@ button{
           .satelite-pic{
             height: 300px;
             width: 400px;
-            border-radius: 60px;
+            border: 20px;
+            border-radius: 20px;
           }
           .news-heading{
             font-size: 32px;
             font-weight: bold;
+            font-family: "Fira Sans", serif;
           }
           p{
             font-size: 16px;
             font-weight: 400px;
+            font-family: "Fira Sans", serif;
           }
           .news-card-text{
             margin-right: 200px;
+            padding-bottom: 35px;
           }
+          /* .aljazeera-icon{
+            padding: 5px;} */
+            .news-button1{
+                background-color: #006A50;
+                height: 38px;
+                width: 128px;
+                border-radius: 10px;
+                color: #ffffff;
+                font-size: 16px;
+                font-weight: 700px;
+                font-family: "Fira Sans", serif;
+            margin-top: 10px;}
+            /* section-4 subscribe part start */
+            .subscribe-title{
+                font-weight: bold;
+                font-size: 40px;
+                font-family: "Fira Sans", serif;
+            }
+            .subscribe-text{
+                font-weight: 400px;
+                font-size: 16px;
+                font-family: "Fira Sans", serif;
+                opacity: 70%;
+            }
+    
+            .subscribe-part{
+                height: 395px;
+                width: 1280px;
+                background-color: #C6E4D6;
+                border-radius: 20px;
+                margin: 50px 130px;
+                padding: 100px;
+
+            }
