@@ -4,10 +4,11 @@
     font-weight: 400;
     font-style: normal;
   }
+  .bg-color{
+    color: #F1F1F3;
+  }
 /* hero section start */
-#part-1{
-    
-}
+ 
 .Hero-section{
     background-color: #C6E4D6;
     height: 560px;
@@ -169,8 +170,8 @@ button{
            /* recent section end */
     
           .news-card1{
-            background-color: #FFF7DF;
-            height: 350px;
+            background-color: #f9f1f1;
+            height: 320px;
             width: 1290px;
             display: flex;
             justify-content: space-evenly;
@@ -183,9 +184,9 @@ button{
           .satelite-pic{
             height: 300px;
             width: 400px;
-            /* border: 3px solid black; */
-           /* border-radius: 50%; */
-           border-radius:  100px 200px;
+          }
+          img{
+            border-radius: 10%;
           }
           .news-heading{
             font-size: 32px;
@@ -213,7 +214,105 @@ button{
                 font-weight: 700px;
                 font-family: "Fira Sans", serif;
             margin-top: 10px;}
-            /* section-4 subscribe part start */
+/* donate today part */
+.donate-title{
+    font-family: "Fira Sans", serif;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 10px;
+}
+.donate-description{font-family: "Fira Sans", serif;
+    font-size: 16px;
+    font-weight: 400px; 
+}
+.Donate-text{
+   margin: 0px 120px;
+   padding-top: 0px;
+  text-align: center;
+   font-family: "Fira Sans", serif;}
+   /* box style start */
+
+   .first-box{
+    height: 128px;
+    width: 240px;
+    background-color: #f8f5ea;
+    border-radius: 20px;
+   }
+   .first-value{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: "Fira Sans", serif;
+    text-align: center;
+   }
+   .donate-boxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+   }
+   .second-box{
+    height: 128px;
+    width: 240px;
+    background-color: #C6E4D6;
+    border-radius: 20px;
+   }
+   .second-value{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: "Fira Sans", serif;
+    text-align: center;
+   }
+   .third-box{
+    height: 128px;
+    width: 240px;
+    background-color: #f8f5ea;
+    border-radius: 20px;
+   }
+   .third-value{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: "Fira Sans", serif;
+    text-align: center;
+   }
+   .forth-box{
+    height: 128px;
+    width: 240px;
+    background-color: #f8f5ea;
+    border-radius: 20px;
+   }
+   .forth-value{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: "Fira Sans", serif;
+    text-align: center;
+   }
+   .button-input{
+                justify-content: center;
+                align-items: center;
+                margin: 0 auto;
+                padding-right: 50px;
+                display: flex; 
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                margin: 50px;
+                gap: 30px;
+            
+                   
+            }
+                input[type="text"]{
+                    border: none;
+                    width: 400px;
+                    height: 55px;
+                    padding: 20px,16px;
+                    text-align: center;
+                    font-family: "Fira Sans", serif;
+                }
+
+
+
+
+            /* section-5 subscribe part start */
             .subscribe-title{
                 font-weight: bold;
                 font-size: 40px;
