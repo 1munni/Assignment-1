@@ -4,9 +4,7 @@
     font-weight: 400;
     font-style: normal;
   }
-  .bg-color{
-    color: #F1F1F3;
-  }
+
 /* hero section start */
  
 .Hero-section{
@@ -50,6 +48,9 @@ button{
     border-radius: 5px;
     border-color: #006A50;
 }
+button:hover{
+    background-color: #687a76;
+    transition: 1s;}
 .btn-text{
     color: #ffffff;
     font-family: "Fira Sans", serif;
@@ -101,6 +102,9 @@ button{
         font-weight: 700px;
         font-family: "Fira Sans", serif;
     }
+    .card-button1:hover{
+        background-color: #687a76;
+        transition: 1s;}
     .second-cards{background-color: #C6E4D6;
         height: 300px;
         width: 400px;
@@ -121,6 +125,9 @@ button{
         font-size: 16px;
         font-weight: 700px;
         font-family: "Fira Sans", serif;}
+        .card-button2:hover{
+            background-color: #687a76;
+            transition: 1s;}
     .third-cards{background-color: #FFF7DF;
         height: 300px;
         width: 400px;
@@ -141,6 +148,9 @@ button{
         font-size: 16px;
         font-weight: 700px;
         font-family: "Fira Sans", serif;}
+        .card-button3:hover{
+            background-color: #687a76;
+            transition: 1s;}
         .card-heading{
             padding-bottom: 0px;
             margin-bottom: 0px;
@@ -214,6 +224,9 @@ button{
                 font-weight: 700px;
                 font-family: "Fira Sans", serif;
             margin-top: 10px;}
+            .news-button1:hover{
+                background-color: #687a76;
+                transition: 1s;}
 /* donate today part */
 .donate-title{
     font-family: "Fira Sans", serif;
@@ -238,6 +251,9 @@ button{
     background-color: #f8f5ea;
     border-radius: 20px;
    }
+   .first-box:hover{
+    background-color: #687a76;
+    transition: 1s;}
    .first-value{
     font-size: 40px;
     font-weight: bold;
@@ -256,6 +272,9 @@ button{
     background-color: #C6E4D6;
     border-radius: 20px;
    }
+   .second-box:hover{
+    background-color: #687a76;
+    transition: 1s;}
    .second-value{
     font-size: 40px;
     font-weight: bold;
@@ -268,6 +287,9 @@ button{
     background-color: #f8f5ea;
     border-radius: 20px;
    }
+   .third-box:hover{
+    background-color: #687a76;
+    transition: 1s;}
    .third-value{
     font-size: 40px;
     font-weight: bold;
@@ -280,6 +302,9 @@ button{
     background-color: #f8f5ea;
     border-radius: 20px;
    }
+   .forth-box:hover{
+    background-color: #687a76;
+    transition: 1s;}
    .forth-value{
     font-size: 40px;
     font-weight: bold;
@@ -296,20 +321,17 @@ button{
                 align-items: center;
                 flex-direction: column;
                 margin: 50px;
-                gap: 30px;
+                gap: 30px;}
+
             
-                   
-            }
                 input[type="text"]{
-                    border: none;
+                    border: 5px solid #006A50;
                     width: 400px;
                     height: 55px;
                     padding: 20px,16px;
                     text-align: center;
                     font-family: "Fira Sans", serif;
                 }
-
-
 
 
             /* section-5 subscribe part start */
@@ -374,4 +396,43 @@ button{
                 font-family: "Fira Sans", serif;
                 border: none;
             }
+            .subscribe-btn:hover{
+                background-color: #687a76;
+                transition: 1s;
+            }
+            /* challenges */
+            .challenges-text{
+                height: 180px
+                width: 1350px;
+                background-color: #C6E4D6;
+                border-radius: 20px;
+                margin: 20px 130px;
+                padding: 50px;
+                display: flex;
+                flex-direction: column;
+                gap: 0px
+            }
+            .challenges-text{
+background-image: url(../assets/quote-bg.png);
+background-repeat: no-repeat;
+background-position: relative;
+background-size: auto;
+            }
+            .challenges-description{
+                font-size: 16px;
+            }
+
+            .challenge-title{
+                font-size: 20px;
+                font-weight: 600;
+                font-family: "Fira Sans", serif;
+                padding: 0px;
+            }
+            .challenges-subtitle{
+                font-size: 16px;
+                font-weight: 400;
+                font-family: "Fira Sans", serif;
+                padding-top: 0px;
+            }
+
         
