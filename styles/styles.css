@@ -39,7 +39,7 @@
     font-family: "Fira Sans", serif;
     margin-bottom: 20px;
     padding-top: 5px;
-    margin-top: 0px;
+    margin-top: 15px;
 }
 
 button{
@@ -53,6 +53,28 @@ button{
     color: #ffffff;
     font-family: "Fira Sans", serif;
 }
-.hero-text{
-    column-gap: 2px;
+/* hero section end */
+.vision-title{
+    font-family: "Fira Sans", serif;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 10px;
 }
+.vision-description{font-family: "Fira Sans", serif;
+    font-size: 16px;
+    font-weight: 400px;
+    
+}
+.vision-text{
+   margin: 0px 120px;
+   padding-top: 0px;}
+   .card-heading{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Fira Sans", serif;
+   }
+   .card-description{
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 70%;
+   }
